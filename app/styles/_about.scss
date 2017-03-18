@@ -1,0 +1,41 @@
+// HEADER //
+
+.header-about {
+  text-align: center;
+  text-transform: uppercase;
+  background-image: url('../images/house-4.jpg');
+  height: 475px;
+}
+
+//PROFILE IMAGE AND BIO BAR//
+.profile-img {
+	text-align: center;
+}
+
+// BIO BAR
+.blue-bar {
+	margin-top: 50px;
+	margin-bottom: 25px;
+	background-color: #01192f;
+	height: 200px;
+}
+
+.bio {
+	color: #ffffff;
+	text-align: center;
+	font-weight: 300;
+	padding-top: 2.5%;
+}
+.bio-names
+{
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-size: 28px;
+	i {
+		padding-right: 25px;
+	}
+}
+
+.mini-bios {
+	margin-bottom: 200px;
+}

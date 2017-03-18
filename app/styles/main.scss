@@ -1,0 +1,177 @@
+// bower:scss
+@import "bower_components/bootstrap/scss/bootstrap.scss";
+// endbower
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,700');
+
+// COLORS
+// dark blue: #01192f
+// white: #ffffff
+$blue: #01192f;
+
+
+body {
+  font-family: 'Oswald', sans-serif;
+  color: #003361;
+
+}
+// THIS IS THE BEGINNING OF THE  HEADER
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  background-image: url('../images/house-2.jpg');
+  height: 575px;
+  }
+
+ul.nav-bar {
+  list-style: none;
+  margin-top: 24px;
+  margin-bottom: 40px;
+  font-size: 36px;
+  li {
+    display: inline-block;
+    margin-right: 36px;
+    margin-left: 36px;
+    a {
+      color: #ffffff;
+      }
+    }
+  }
+
+img.logo {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  }
+// THIS IS THE END OF THE HEADER
+
+// THIS IS THE BEGINNING OF THE INFO BAR
+div.info-bar {
+  background: #01192f;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  }
+ul.info {
+  list-style: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 28px;
+  li {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    }
+  .li-right {
+    text-align: right;
+    font-weight: 300;
+    span {
+      font-weight: 500;
+      }
+    }
+  }
+
+// THIS IS THE END OF THE INFO BAR
+
+// THIS IS THE MAIN CONTENT
+  .main-content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+  .main-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.25em;
+      a {
+        text-decoration: none;
+        color: $blue;
+      }
+      a:hover {
+        color: #003361;
+      }
+    }
+    h3 {
+      text-transform: uppercase;
+      font-weight: 300;
+      padding-bottom: 40px;
+      padding-top: 100px;
+      display: inline-block;
+     }
+    h4 {
+      font-weight: 300;
+      padding-top: 40px;
+      display: inline-block;
+     }
+     // .preview-img {}
+
+    .img-hover {
+      background: $blue;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 12px;
+      opacity:0;
+      text-align: left;
+
+      transition: opacity .25s ease-in-out;
+       -moz-transition: opacity .25s ease-in-out;
+       -webkit-transition: opacity .25s ease-in-out;
+    }
+    .item-img:hover .img-hover {
+      opacity:0.7;
+    }
+
+    .preview-img .img-hover {
+      background: $blue;
+      opacity: 0;
+     }
+    .preview-img:hover .img-hover {
+      opacity: 0.7;
+     }
+    .description {
+        padding-top: 35px;
+        padding-left: 50px;
+    }
+    .remodel {
+      padding-top: 60px;
+    }
+    .description-1 {
+      text-align: right;
+    }
+
+// THIS IS THE END OF THE MAIN CONTENT
+
+// THIS IS THE FOOTER
+.footer {
+  color: #ffffff;
+  background: $blue;
+  text-align: center;
+  padding: 15px;
+  p {
+    font-weight: 200;
+    }
+  h5 {
+    text-transform: uppercase;
+    padding-bottom: 10px
+    }
+  a {
+    color: #ffffff;
+    }
+  }
+.social {
+    text-align: center;
+    }
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      display: inline-block;
+      }  
+    }
+// THIS IS THE END OF THE FOOTER
+
+@import 'about';
+@import 'work';
+@import 'contact';
+

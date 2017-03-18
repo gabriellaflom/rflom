@@ -1,0 +1,34 @@
+// CONNECT BAR
+
+.contact-title {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 100px;
+}
+.blue-bar-1 {
+	margin-top: 50px;
+	margin-bottom: 25px;
+	background-color: #01192f;
+	height: 100px;
+}
+ul.contact-info {
+	list-style: none;
+	color: #ffffff;
+	font-weight: 200;
+	align: center;
+	padding-top: 25px;
+	li {
+		font-size: 18px;
+		text-transform: uppercase;
+		text-align: center;
+		line-height: 30px;
+		i {
+		padding-right: 15px;
+		}
+	}
+}
+
+//CONTACT FORM
+form {
+	margin-bottom: 100px;
+}
