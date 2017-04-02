@@ -16,15 +16,17 @@
 .blue-bar {
 	margin-top: 50px;
 	margin-bottom: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	background-color: #01192f;
-	height: 200px;
+	
 }
 
 .bio {
 	color: #ffffff;
-	text-align: center;
 	font-weight: 300;
-	padding-top: 2.5%;
+	// padding-top: 2.5%;
+	text-align: left;
 }
 .bio-names
 {

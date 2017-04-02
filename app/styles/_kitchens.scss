@@ -1,20 +1,21 @@
-//PROJECTS LIST
-.projects {
-	list-style: none;
-	font-size: 18px;
-	padding-top: 100px;
-  padding-bottom: 25px;
-  li {
-    display: inline-block;
-    .list-link {
-      color: #01192f;
-    }
+.kitchens {
+	
+	h1 {
+		text-align: center;
+		padding-top: 50px;
+		padding-bottom: 25px;
+		color: #01192f;
 	}
 }
-//END PROJECT LIST
 
-//BEGIN PREVIEW IMAGES
-.project-img {
+.kitchen-description {
+	a {
+		color: #01192f;
+	}
+	margin-bottom: 50px;
+}
+//BEGIN KITCHEN PREVIEW IMAGES
+.kitchen-img {
 	margin:0;
 	padding: 0;
 	margin-bottom: 100px;
@@ -62,17 +63,4 @@
       opacity: 1.0;
     }
 }
-//END PREVIEW IMAGES
-
-//BEGIN GO BACK BUTTON
-.go-back {
-  a {
-    color: #01192f;
-  }
-  text-align: center;
-  font-size: 32px;
-  margin-top: -25px;
-  margin-bottom: 50px;
-}
-//END GO BACK BUTTON
-
+//END KITCHEN PREVIEW IMAGES
