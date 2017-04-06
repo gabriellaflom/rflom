@@ -13,6 +13,7 @@
     <!-- build:css /styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/components-font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="/bower_components/lightbox2/dist/css/lightbox.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -67,27 +68,26 @@
 <!-- END KITCHEN INTRO -->
 
 <!-- PROJECT LIST BEGIN -->
-<div class="container">
-    <ul class="project-preview-img row">
-      <li class="col-4 item-img profile-img kitchen" style="background-image: url(/images/kitchens/parsons/parsons-1.jpg)">
-        <a href="#">Preview</a>
-      </li>
-      <li class="col-4 item-img profile-img kitchen" style="background-image: url(/images/kitchens/parsons/parsons-2.jpg)">
-        <a href="#">Preview</a>
-      </li>
-      <li class="col-4 item-img profile-img kitchen" style="background-image: url(/images/kitchens/parsons/parsons-3.jpg)">
-        <a href="#">Preview</a>
-      </li>
-      <li class="col-4 item-img profile-img kitchen" style="background-image: url(/images/kitchens/parsons/parsons-4.jpg)">
-        <a href="#">Preview</a>
-      </li>
-      <li class="col-4 item-img profile-img kitchen" style="background-image: url(/images/kitchens/parsons/parsons-5.jpg)">
-        <a href="#">Preview</a>
-      </li>
-      
-    </ul>
-
-    <div class="go-back">
+  <div class="container">
+      <ul class="project-preview-img row">
+        <li class="col-4 item-img profile-img kitchen" style="background-image: url(/images/kitchens/parsons/parsons-1.jpg)">
+          <a data-lightbox="gallery" href="/images/kitchens/parsons/parsons-1.jpg">Preview</a>
+        </li>
+        <li class="col-4 item-img profile-img kitchen" style="background-image: url(/images/kitchens/parsons/parsons-2.jpg)">
+          <a data-lightbox="gallery" href="/images/kitchens/parsons/parsons-2.jpg">Preview</a>
+        </li>
+        <li class="col-4 item-img profile-img kitchen" style="background-image: url(/images/kitchens/parsons/parsons-3.jpg)">
+          <a data-lightbox="gallery" href="/images/kitchens/parsons/parsons-3.jpg">Preview</a>
+        </li>
+        <li class="col-4 item-img profile-img kitchen" style="background-image: url(/images/kitchens/parsons/parsons-4.jpg)">
+          <a data-lightbox="gallery" href="/images/kitchens/parsons/parsons-4.jpg">Preview</a>
+        </li>
+        <li class="col-4 item-img profile-img kitchen" style="background-image: url(/images/kitchens/parsons/parsons-5.jpg)">
+          <a data-lightbox="gallery" href="/images/kitchens/parsons/parsons-5.jpg">Preview</a>
+        </li>
+      </ul>
+    </div>
+<div class="go-back">
       
       <p> <a href="work.html"><i class="fa fa-arrow-left" aria-hidden="true"></i>Back to Projects</a></p>
     </div>
@@ -128,7 +128,6 @@
     </div>
 <!-- FOOTER END -->
 
-
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -144,25 +143,16 @@
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/tether/dist/js/tether.js"></script>
     <script src="/bower_components/modernizr/modernizr.js"></script>
+    <script src="/bower_components/ekko-lightbox/dist/ekko-lightbox.min.js"></script>
+    <script src="/bower_components/lightbox2/dist/js/lightbox.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     
     <!-- build:js /scripts/plugins.js -->
-    <script src="/bower_components/bootstrap/js/dist/util.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/alert.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/button.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/carousel.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/collapse.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/dropdown.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/modal.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/scrollspy.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/tab.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/tooltip.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/popover.js"></script>
     <!-- endbuild -->
     
     <!-- build:js /scripts/main.js -->
-    <script src="scripts/main.js"></script>
+    <script src="/scripts/main.js"></script>
     <!-- endbuild -->
   </body>
 </html>
