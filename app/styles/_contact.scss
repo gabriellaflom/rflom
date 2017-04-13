@@ -9,7 +9,7 @@
 	margin-top: 50px;
 	margin-bottom: 25px;
 	background-color: #01192f;
-	height: 100px;
+	height: 125px;
 }
 ul.contact-info {
 	list-style: none;
@@ -18,7 +18,7 @@ ul.contact-info {
 	align: center;
 	padding-top: 25px;
 	li {
-		font-size: 18px;
+		font-size: 14px;
 		text-transform: uppercase;
 		text-align: center;
 		line-height: 30px;
@@ -27,12 +27,15 @@ ul.contact-info {
 		}
 	}
 }
-
+@include media-breakpoint-up(md) {
+ul.contact-info li {
+	font-size: 18px;
+	}
+}
 //CONTACT FORM
 form {
 	margin-bottom: 100px;
 }
-
 .contact-form-submit {
 	background-color: #01192f;
 	color: #ffffff;

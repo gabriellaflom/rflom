@@ -1,32 +1,36 @@
 // HEADER //
-
 .header-about {
   text-align: center;
   text-transform: uppercase;
   background-image: url('../images/house-4.jpg');
   height: 475px;
 }
-
 //PROFILE IMAGE AND BIO BAR//
 .profile-img {
 	text-align: center;
+	// padding-right: 30px;
 }
-
+.description {
+	// padding-left: 30px;
+}
 // BIO BAR
 .blue-bar {
 	margin-top: 50px;
 	margin-bottom: 25px;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	background-color: #01192f;
-	
+	background-color: #01192f;	
 }
-
 .bio {
 	color: #ffffff;
 	font-weight: 300;
 	// padding-top: 2.5%;
 	text-align: left;
+}
+//END BIO BAR
+//THREE POINTS BIO BEGINS
+.three-points-bio {
+	padding-bottom: 75px;
 }
 .bio-names
 {
@@ -37,7 +41,9 @@
 		padding-right: 25px;
 	}
 }
-
-.mini-bios {
-	margin-bottom: 200px;
+.mini-bios-description {
+	text-transform: lowercase;
+	font-size: 20px;
+	margin-bottom: 50px;
 }
+//END THREE POINTS BIO
