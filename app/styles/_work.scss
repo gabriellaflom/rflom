@@ -1,12 +1,12 @@
-// HEADER //
+// HEADER BEGIN
 .header-about {
   text-align: center;
   text-transform: uppercase;
   background-image: url('../images/house-4.jpg');
   height: 575px;
 }
-
-// INTRO 
+//HEADER END
+// INTRO BEGIN
   h1 {
     text-align: center;
     padding-top: 50px;
@@ -15,7 +15,7 @@
   }
 //END INTRO
 
-//PROJECTS LIST
+//PROJECTS LIST BEGIN
 .projects {
 	list-style: none;
 	font-size: 18px;
@@ -28,9 +28,9 @@
     }
 	}
 }
-//END PROJECT LIST
+//PROJECT LIST END
 
-//BEGIN PREVIEW IMAGES
+//PREVIEW IMAGES BEING
 .project-img {
 	margin:0;
 	padding: 0;
@@ -76,9 +76,13 @@
     opacity: 1.0;
   }
 }
-//END PREVIEW IMAGES
+.project-names {
+  font-size: 24px;
+}
 
-//BEGIN GO BACK BUTTON
+//PREVIEW IMAGES END
+
+//GO BACK BUTTON BEGIN
 .go-back {
   a {
     color: #01192f;
@@ -88,5 +92,5 @@
   margin-top: -25px;
   margin-bottom: 50px;
 }
-//END GO BACK BUTTON
+//GO BACK BUTTON END
 
