@@ -3,15 +3,19 @@
   text-align: center;
   text-transform: uppercase;
   background-image: url('../images/house-4.jpg');
-  height: 475px;
+  height: 575px;
 }
 //PROFILE IMAGE AND BIO BAR//
 .profile-img {
 	text-align: center;
 	// padding-right: 30px;
 }
+.profile-headshot {
+	width: 35%;
+}
 .description {
 	// padding-left: 30px;
+	padding-top: 10%;
 }
 // BIO BAR
 .blue-bar {

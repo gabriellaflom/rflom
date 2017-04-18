@@ -1,5 +1,12 @@
-.kitchens {
-	
+// HEADER //
+.header-about {
+  text-align: center;
+  text-transform: uppercase;
+  background-image: url('../images/house-4.jpg');
+  height: 575px;
+}
+//INTRO SECTION
+.kitchens {	
 	h1 {
 		text-align: center;
 		padding-top: 50px;
@@ -7,7 +14,6 @@
 		color: #01192f;
 	}
 }
-
 .kitchen-description {
 	a {
 		color: #01192f;
