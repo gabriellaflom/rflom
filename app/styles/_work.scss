@@ -28,9 +28,13 @@
     }
 	}
 }
+.before-after {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 //PROJECT LIST END
 
-//PREVIEW IMAGES BEING
+//PREVIEW IMAGES BEGIN
 .project-img {
 	margin:0;
 	padding: 0;
@@ -52,7 +56,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      opacity:0;
+      opacity:1;
       text-align: center;
       transition: opacity .25s ease-in-out;
       -moz-transition: opacity .25s ease-in-out;
@@ -65,7 +69,7 @@
   	padding-top: 75px;
   }
   .item-img:hover .img-hover {
-    opacity:1;
+    opacity:0;
   }
 
   .preview-img .img-hover {
@@ -79,7 +83,6 @@
 .project-names {
   font-size: 24px;
 }
-
 //PREVIEW IMAGES END
 
 //GO BACK BUTTON BEGIN
