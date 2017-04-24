@@ -37,6 +37,7 @@ ul.contact-info {
 .contact-link {
 	color: #ffffff;
 }
+
 @include media-breakpoint-up(md) {
 ul.contact-info li {
 	font-size: 18px;
